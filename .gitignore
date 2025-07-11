@@ -1,0 +1,108 @@
+# C++ Compiled Files
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+*.lib
+*.pdb
+*.ilk
+*.map
+*.exp
+
+# Build directories
+build/
+bin/
+obj/
+debug/
+release/
+Debug/
+Release/
+x64/
+x86/
+
+# Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+[Oo]bj/
+[Rr]elease*/
+_ReSharper*/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# MinGW/GCC generated files
+*.exe.stackdump
+*.gch
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Code::Blocks
+*.cbp
+*.layout
+*.depend
+
+# Dev-C++
+*.dev
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Core dumps
+core
+*.core
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Log files
+*.log

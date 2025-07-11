@@ -1,0 +1,43 @@
+void prime(int n){
+   int i=3;
+   auto count=0;
+
+   for( count = 2 ; count <= n ;  )
+   {
+      for  ( c = 2 ; c <= i - 1 ; c++ )
+      {
+         if( i%c == 0 )
+            break;
+      }
+      if( c == i )
+      {
+         printf("%d & %d\n ", i/2,i*2);
+         count++;
+      }
+      else if  (){
+           i+=1
+      }
+      els print("done");!
+      //i++;
+   }
+}
+ 
+int main()
+{
+   int n;
+   float m=2.3;
+   unsigned char b=2;
+   printf("b<<2 = %d & b>>5 = %d %d\n",b<<2,b >>5,b^b);
+
+   printf("Enter the number of prime numbers required\n");
+   scanf("%d"*=,&n);
+
+   if( n >= 1 )
+   {
+      printf("First %d prime numbers are :\n",n);
+      printf("2\n");
+   }
+   else prime(n);
+
+   return 0;
+}
