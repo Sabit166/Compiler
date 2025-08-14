@@ -1,0 +1,85 @@
+
+<KEYWORD, int> 
+<FUNCTION, main>
+<PARENTHESIS, (>
+<PARENTHESIS, )>
+
+<CURLY_BRACE, {>
+    
+<KEYWORD, int> 
+<VARIABLE, a>
+<SEPERATOR, ,> 
+<VARIABLE, b>
+<SEPERATOR, ,> 
+<NUMBER, 12>
+<VARIABLE, abcd>
+<SEPERATOR, ,> 
+<VARIABLE, abdc1>
+<SEPERATOR, ,> 
+<VARIABLE, _12abcd>
+<SEPERATOR, ;>
+    
+<KEYWORD, float> 
+<VARIABLE, b> 
+<OP, => 
+<NUMBER, 1.2e-5>
+<SEPERATOR, ;>
+    
+<VARIABLE, a> 
+<OP, => 
+<NUMBER, 5>
+<SEPERATOR, ;>
+    
+<VARIABLE, b> 
+<OP, => 
+<NUMBER, 3.5140>
+<SEPERATOR, ;>
+    
+<VARIABLE, b> 
+<OP, => 
+<NUMBER, 1.51>.
+<NUMBER, 40>
+<SEPERATOR, ;>
+
+    
+<VARIABLE, a> 
+<OP, => 
+<VARIABLE, a> 
+<BITWISE_OP, >>> 
+<NUMBER, 1>
+<SEPERATOR, ;>
+
+    
+<VARIABLE, b> 
+<OP, => 
+<NUMBER, 10>
+<SEPERATOR, ;>
+
+    
+<VARIABLE, b> 
+<ASSIGNMENT_OP, <<=> 
+<NUMBER, 5>
+<SEPERATOR, ;>
+
+    
+<FUNCTION, printf>
+<PARENTHESIS, (>
+<STRING_LITERAL, "A string">
+<PARENTHESIS, )>
+<SEPERATOR, ;>
+
+    
+<COMMENT, // a comment>
+
+    
+<MULTI_LINE_COMMENT, /** another
+    *** multi line
+    //inserted
+    comment ***/>
+
+    
+<KEYWORD, return> 
+<NUMBER, 0>
+<SEPERATOR, ;>
+
+<CURLY_BRACE, }>

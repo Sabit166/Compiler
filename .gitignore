@@ -12,6 +12,7 @@
 *.ilk
 *.map
 *.exp
+*.txt
 
 # Build directories
 build/
